@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ - MyStore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top px-4">
+  <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="fas fa-store me-2"></i>MyStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="products.html">Sản phẩm</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a></li>
+          <li class="nav-item"><a id="loginBtn" class="nav-link btn btn-outline-light ms-3 px-4 rounded-pill" href="login.html">Đăng nhập</a></li>
+        </ul>
+      </div>
+  </div>
+</nav>
+
+<div class="banner">
+    <h1>Phong cách của bạn</h1>
+    <p>Khám phá những bộ sưu tập thời trang mới nhất 2024</p>
+    <a href="products.html" class="btn btn-warning btn-lg mt-3 text-dark fw-bold">Mua sắm ngay</a>
+</div>
+
+<div class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Sale1212.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/SaleGiangSinh.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/VongQuayMayMan.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">🔥 Sản phẩm nổi bật</h2>
+        <a href="products.html" class="text-primary fw-bold">Xem tất cả &rarr;</a>
+    </div>
+
+    <div class="row g-4" id="BestProduct">
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>MyStore</h5>
+                <p>Địa chỉ mua sắm tin cậy của bạn. Chúng tôi cam kết chất lượng sản phẩm tốt nhất.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Liên kết</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="products.html">Sản phẩm</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Liên hệ</h5>
+                <p><i class="fas fa-envelope me-2"></i> hotro@mystore.com</p>
+                <p><i class="fas fa-phone me-2"></i> 0909 123 456</p>
+            </div>
+        </div>
+        <hr class="mt-4 border-secondary">
+        <p class="text-center mb-0">© 2025 MyStore. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
